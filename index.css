@@ -1,0 +1,167 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #9ebcce;
+    color: #0e2c80;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.fc {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.right {
+    text-align: right;
+}
+
+.fc button {
+background-color: #0077b6;
+color: white;
+border: none;
+padding: 10px 20px;
+cursor: pointer;
+border-radius: 20px;
+}
+
+.fc button:hover {
+background-color: #0e4549;
+}
+.fc button a {
+text-decoration: none;
+color: inherit; 
+font-family: 'Times New Roman', Times, serif;
+font-weight: bold;
+font-size: medium;
+}
+
+h1 {
+    color: #0077b6;
+    text-align: center;
+}
+h2 {
+    color: #0096c7;
+}
+
+.pg{
+    font-size: large;
+    text-align: justify;
+}
+
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   
+}
+
+.style {
+    text-decoration: none;
+    background-color: #0077FF; 
+    color: #FFFFFF; 
+    padding: 8px 16px;
+    border-radius: 4px;
+ 
+}
+
+.style:hover {
+    background-color: #487a9b;
+}
+
+.sidebar  a {
+    text-decoration: none !important;
+}
+.sb1 {
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+}
+
+.sidebar {
+    position: fixed;
+    top: 40%; 
+    right: 0; 
+    width: 200px; 
+    background-color: #fff; 
+    padding: 20px;
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
+.sidebar a:hover{
+    color: #9aad7c;
+}
+
+.sb2 {
+    position: fixed;
+    top: 40%; 
+    width: 230px; 
+    background-color: #fff; 
+    padding: 20px;
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
+.sb2 h2{
+    padding: 0%;
+    margin-bottom: 0%;
+}
+
+.sb2 p{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+}
+
+.sb2 h4{
+    padding: 0%;
+    margin: 0%;
+    text-decoration:underline;
+}
+
+body{
+    background-image: url('./bc.jpg');
+    background-size: cover;
+    background-attachment:scroll;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+header im {
+    text-decoration: none;
+}
+
+
+.mi {
+    position: fixed;
+    top: 20px; 
+    left: 30px; 
+    z-index: 1000; 
+    width: 40px; 
+    height: 40px; 
+    border-radius: 10%;
+}
+
+header im {
+    text-decoration: none;
+}
+
+
+.mi {
+    position: fixed;
+    top: 20px; 
+    left: 30px; 
+    z-index: 1000; 
+    width: 40px; 
+    height: 40px; 
+    border-radius: 10%;
+}
